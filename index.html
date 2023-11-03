@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVIN PROGRAMACION</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cssLink = document.querySelector("a[href='CSS']");
+            const hiddenText = document.getElementById("hidden1-text");
+
+            cssLink.addEventListener("click", function (e) {
+                e.preventDefault(); // Evita que el enlace redireccione a otra página
+                hiddenText.classList.toggle("hidden1");
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const cssLink = document.querySelector("a[href='HTML']");
+            const hiddenText = document.getElementById("hidden2-text");
+
+            cssLink.addEventListener("click", function (e) {
+                e.preventDefault(); // Evita que el enlace redireccione a otra página
+                hiddenText.classList.toggle("hidden2");
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const cssLink = document.querySelector("a[href='Java']");
+            const hiddenText = document.getElementById("hidden3-text");
+
+            cssLink.addEventListener("click", function (e) {
+                e.preventDefault(); // Evita que el enlace redireccione a otra página
+                hiddenText.classList.toggle("hidden3");
+            });
+        });
+
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+    <nav>
+        <p class="LOGOKEVIN">KEVIN</p>
+        <ul class="cont-ul">
+            <li>QUIEN SOY</li>
+            <li>INFORMACION</li>
+            <li class="develop">
+                DESARROLLADOR
+                <ul class="ul-second">
+                    <li class="back">Back-End</li>
+                    <li class="front">
+                        Front-End
+                        <ul class="ul-third">
+                            <li> <a href="CSS">CSS</a></li>
+                            <li><a href="HTML">HTML</a></li>
+                            <li><a href="Java">Java</a></li>
+                        </ul>
+                    </li>
+                    <li>Full-Stack</li>
+                </ul>
+            </li>
+            <li>COMPANY</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <div id="hidden1-text" class="hidden1">
+        <p>
+        <h1> CSS</h1>
+        <h2>Texto relacionado a CSS, es un lenguaje de programacion que nos sirve para estilar textos, animar objetos,
+            alinear parrafos y demas, para usarlo debemos llamarlo en nuestro "head", luego usamos ("script"), que dentro de el vamos a colocar las funciones, 
+        que nuesto java va a realizar.</h2>
+        </p>
+    </div>
+    <div id="hidden2-text" class="hidden2">
+        <p>
+        <h2>Texto relacionado a HTML, es un lenguaje que nos ayuda hacer textos, clases, sub-clases,  </h2>
+        </p>
+    </div>
+    <div id="hidden3-text" class="=hideen3">
+        <p>
+        <h3>javascrip, nos ayuda a programar acciones en nuestra pagina, ocultar elementos y reaccionar al hacer algun
+            tipo de interaccion con la misma.
+
+            Estos tres tipos de languajes de programacion son fundamentales para las bases se nuestra pagina web,
+            ya que al no contar con el html, no es posible que exista nuestra pagina, el css nos ayuda a cambiar tipos
+            de letras.  </h3>
+        </p>    
+    </div id="colegio"  class="colegio">
+    <p><h4> el proposito de esta interefaz de esta pagina es ser exonerado, del  examen final  del colegio:
+        <ol>
+            <ul>colegio colombia</ul>
+            <ul>kevin stevan garzon solarte</ul>
+            <ul> grado 10º</ul>
+            <ul>2022-2023</ul>
+            <ul>primer periodo</ul>
+            <ul>Fisica</ul>
+
+        </ol>
+    </h4>
+    </p>
+
+
+
+
+
+
+</body>
